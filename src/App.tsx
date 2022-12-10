@@ -5,7 +5,7 @@ import {Navbar} from "./components/Navbar/Navbar";
 import {Profile} from "./components/Profile/Profile";
 
 
-function App() {
+export const App=()=> {
     return (
         <div className="app-wrapper">
             <Header/>
@@ -15,4 +15,3 @@ function App() {
     );
 }
 
-export default App;
